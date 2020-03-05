@@ -2,9 +2,17 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+const APIEndPoints = {
+  login: 'http://localhost:8090/api/login',
+  produtList: 'http://localhost:8090/api/products'
+}
+
 export const environment = {
-  production: false
+  production: false,
+  APIEndpoints: APIEndPoints
 };
+
+
 
 /*
  * In development mode, to ignore zone related error stack frames such as
