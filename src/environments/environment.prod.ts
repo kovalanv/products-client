@@ -1,7 +1,7 @@
 
 const APIEndPoints = {
-  login: 'http://localhost:8090/login',
-  produtList: 'http://localhost:8090/api/products'
+  login: 'https://asellion-products.herokuapp.com/api/login',
+  produtList: 'https://asellion-products.herokuapp.com/api/products'
 }
 export const environment = {
   production: true,
